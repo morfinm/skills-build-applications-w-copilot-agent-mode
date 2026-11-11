@@ -45,5 +45,5 @@ Record the commands you run and what each failure means.
 - Data-tier command: `npm run test:data --prefix octofit-tracker/backend` — validates the Mongoose schemas and seed data contract; failures here mean the database layer is missing required fields or relationships.
 - API command: `npm run test:api --prefix octofit-tracker/backend` — validates business logic and HTTP behavior; failures here indicate invalid input handling, leaderboard aggregation, or workout recommendation logic.
 - Frontend command: `npm test --prefix octofit-tracker/frontend` — validates the UI contract; failures here indicate placeholder content, missing loading states, or inaccessible error messages in the React components.
-- Backend build command: `npm run build --prefix octofit-tracker/backend` — ensures the TypeScript backend compiles cleanly after the data and API implementation.
-- Frontend build command: `npm run build --prefix octofit-tracker/frontend` — ensures the React app compiles and the Vite + TypeScript presentation tier is valid after wiring the real API client and UI states.
+- Backend build command: `npm run build --prefix octofit-tracker/backend` — this ensures the TypeScript backend compiles cleanly after the data and API implementation.
+- Frontend build command: `npm run build --prefix octofit-tracker/frontend` — this ensures the React app compiles and the Vite + TypeScript presentation tier is valid after wiring the real API client and UI states.
